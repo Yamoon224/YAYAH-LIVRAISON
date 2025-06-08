@@ -395,10 +395,10 @@ export default function HomePage() {
             <p className="text-xl md:text-2xl mb-4">{t("heroSubtitle")}</p>
             <p className="text-lg mb-8 opacity-90">{t("heroDescription")}</p>
             <div className="flex items-center md:justify-start justify-center space-x-4 text-lg">
-              <div className="flex items-center bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
+              <div className="flex items-center bg-white/20 backdrop-blur-sm rounded-lg px-2 py-2">
                 <a href="tel:+224666885555">
                   <Phone className="h-4 w-4 mr-1" />
-                  +224 666 88 55 55
+                  +224666885555
                 </a>
               </div>
             </div>
