@@ -95,7 +95,7 @@ export default function CartPage() {
           setOrderMessage(`Erreur serveur: ${error.response.status}. Veuillez réessayer.`)
         } else if (error.request) {
           console.log(error);
-          setOrderMessage(`Erreur Request: ${error.request.status}. Veuillez réessayer.`)
+          setOrderMessage(`Erreur Request: ${error.request}. Veuillez réessayer.`)
 
           // setOrderMessage(
           //   "L'API est inaccessible depuis cet environnement. Utilisez l'option WhatsApp pour finaliser votre commande.",
