@@ -94,6 +94,7 @@ export default function CartPage() {
         } else if (error.response) {
           setOrderMessage(`Erreur serveur: ${error.response.status}. Veuillez réessayer.`)
         } else if (error.request) {
+          console.log(error);
           setOrderMessage(
             "L'API est inaccessible depuis cet environnement. Utilisez l'option WhatsApp pour finaliser votre commande.",
           )

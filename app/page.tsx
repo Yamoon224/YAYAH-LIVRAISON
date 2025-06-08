@@ -309,11 +309,11 @@ export default function HomePage() {
   // Function to get the full image URL
   const getImageUrl = (photo: string) => {
     // If photo starts with 'http', it's already a full URL
-    if (photo.startsWith("http")) {
+    // if (photo.startsWith("http")) {
       return photo
-    }
+    // }
     // Otherwise, prepend the API base URL
-    return `https://api.groupmafamo.com/${photo}`
+    // return `https://api.groupmafamo.com/${photo}`
   }
 
   // Pagination logic
@@ -337,7 +337,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src="/logo.webp" alt="YAYAH LIVRAISON" width={200} height={80} className="h-12 w-auto" />
+              <Image src="/logo.png" alt="YAYAH LIVRAISON" width={200} height={80} className="h-12 w-auto" />
             </Link>
 
             <div className="flex items-center space-x-4">
