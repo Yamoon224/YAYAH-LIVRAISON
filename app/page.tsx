@@ -475,7 +475,7 @@ export default function HomePage() {
                   <h3 className="font-semibold text-lg dark:text-white line-clamp-1">{product.name}</h3>
 
                   <div className="flex items-center justify-between">
-                    <span className="text-2xl font-bold text-orange-600">{formatPrice(product.price)}</span>
+                    <span className="text-md font-bold text-orange-600">{formatPrice(product.price)}</span>
                     <div className="flex items-center">
                       {[...Array(5)].map((_, i) => (
                         <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
