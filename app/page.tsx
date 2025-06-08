@@ -337,7 +337,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src="/logo.png" alt="YAYAH LIVRAISON" width={200} height={80} className="h-12 w-auto" />
+              <Image src="/logo.webp" alt="YAYAH LIVRAISON" width={200} height={80} className="h-12 w-auto" />
             </Link>
 
             <div className="flex items-center space-x-4">
@@ -517,7 +517,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <Image src="/logo.png" alt="YAYAH LIVRAISON" width={200} height={80} className="h-12 w-auto mb-4" />
+              <Image src="/logo.webp" alt="YAYAH LIVRAISON" width={200} height={80} className="h-12 w-auto mb-4" />
               <p className="text-gray-300">{t("trustedPartner")}</p>
             </div>
 
